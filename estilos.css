@@ -1,0 +1,115 @@
+/*Barra Lateral Izquierda*/
+
+.aside {
+    background-color: rgb(6, 18, 34);
+    color: rgb(255, 228, 228);
+    width: 25%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.menu-header {
+    padding: 8px;
+    display: flex;
+}
+
+.subtitle {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    
+}
+
+.profile {
+    margin-bottom: 25px;
+}
+
+.side-menu,
+.profile {
+    padding-left: 4px;
+}
+
+.sublabel {
+    font-size: 18px;
+    padding-left: 4px;
+}
+
+.smallClass {
+    background-color: rgb(47, 66, 94);
+    color: rgb(255, 228, 228);
+    width: 10%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.pantalla_principal {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+}
+
+.barra {
+    background-color: rgb(194, 188, 188);
+}
+
+#burger {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cuerpo {
+    background-color: rgb(235, 224, 224);
+    height: 100vh;
+}
+
+
+/*Al presionar en cada sector la idea es que quede centrado.*/
+#pres{
+
+    font-size: 40px;
+    padding-top: 5%;
+    padding-left: 30%;
+}
+
+/*Acciones*/
+
+.achicar_textos {
+    font-size: 60%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.achicar_iconos {
+    font-size: 160%;
+    display: block;
+    text-align: center;
+}
+
+.lado_central {
+    text-align: center;
+}
+
+.ocultame {
+   
+    visibility: hidden;
+}
+
+.desocultame {
+  
+    visibility: visible;
+}
+
+
+/*bandera e icono de desconexión*/
+
+#uk {
+    width: 45px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+#Icono_Logout{
+    position: fixed;
+    top:10px;
+    right:18px;
+}
